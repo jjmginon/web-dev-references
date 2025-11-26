@@ -9,18 +9,18 @@
 
 body {
     margin: 1.5rem;
-    background: #010409;
     font-family: "Inconsolata", monospace;
     text-align: center;
     color: #e6edf3;
+    background: #010409;
 }
 
 nav {
-    margin: 0 auto 1rem;
+    overflow: hidden;
     max-width: 720px;
+    margin: 0 auto 1rem;
     border: 2px solid #30363d;
     border-radius: 2rem;
-    overflow: hidden;
     font-size: 2rem;
     line-height: 5rem;
     background: #0d1117;
@@ -28,9 +28,9 @@ nav {
 
 h1 {
     padding: 1rem;
-    background: #161b22;
     font-size: 2.75rem;
     line-height: 1.5;
+    background: #161b22;
 }
 
 ul {
@@ -53,8 +53,8 @@ li a:visited {
 
 li a:hover,
 li a:focus {
-    background: hsla(127, 59%, 58%, 0.1);
     color: #56d364;
+    background: hsla(127, 59%, 58%, 0.1);
 }
 
 p {
