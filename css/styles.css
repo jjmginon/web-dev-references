@@ -9,7 +9,12 @@
 }
 
 body {
-    margin: 1.5rem;
+    padding: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: "Inconsolata", monospace;
     text-align: center;
     color: #e6edf3;
