@@ -28,18 +28,19 @@ body {
 nav {
     overflow: hidden;
     max-width: 720px;
-    margin: 0 auto 1rem;
+    margin-bottom: 1rem;
     border: 2px solid #30363d;
     border-radius: 2rem;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
     line-height: 5rem;
     background: #0d1117;
 }
 
 h1 {
     padding: 1rem;
-    font-size: 2.75rem;
-    line-height: 1.5;
+    font-size: clamp(2rem, 1.5rem + 2vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.25;
     background: #161b22;
 }
 
@@ -80,4 +81,11 @@ a {
 a:hover,
 a:focus {
     color: #56d364;
+}
+
+@media screen and (min-width: 535px) {
+    h1 {
+        padding: 2rem;
+        line-height: 1;
+    }
 }
