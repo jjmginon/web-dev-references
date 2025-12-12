@@ -18,27 +18,36 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: "Inconsolata", monospace;
     text-align: center;
     color: #e6edf3;
     background: #010409;
 }
 
+h1 {
+    font-size: clamp(2rem, 2.5rem + 2vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+main {
+    margin: 1rem 0;
+}
+
 nav {
     overflow: hidden;
-    max-width: 720px;
-    margin-bottom: 1rem;
+    max-width: 425px;
     border: 2px solid #30363d;
     border-radius: 2rem;
-    font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
-    line-height: 5rem;
+    font-size: clamp(1rem, 1.25rem + 2vw, 1.5rem);
+    line-height: 4rem;
     background: #0d1117;
 }
 
-h1 {
-    padding: 1rem;
-    font-size: clamp(2rem, 1.5rem + 2vw, 2.75rem);
+h2 {
+    padding: 1rem 1.5rem;
+    font-size: clamp(1rem, 1.5rem + 2vw, 2rem);
     font-weight: 900;
     line-height: 1.25;
     background: #161b22;
@@ -69,6 +78,7 @@ li a:focus {
 }
 
 p {
+    margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -81,11 +91,4 @@ a {
 a:hover,
 a:focus {
     color: #56d364;
-}
-
-@media screen and (min-width: 535px) {
-    h1 {
-        padding: 2rem;
-        line-height: 1;
-    }
 }
