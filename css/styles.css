@@ -22,7 +22,7 @@ body {
     font-family: "Inconsolata", monospace;
     text-align: center;
     color: #e6edf3;
-    background: #010409;
+    background: linear-gradient(0deg, hsla(218, 80%, 2%, 1) 0%, hsla(215, 21%, 11%, 1) 100%);
 }
 
 h1 {
