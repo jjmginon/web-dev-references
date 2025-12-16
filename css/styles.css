@@ -63,6 +63,7 @@ li {
 
 li a {
     display: block;
+    transition: all 0.3s ease-in-out;
 }
 
 li a,
